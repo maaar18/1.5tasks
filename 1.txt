@@ -1,0 +1,14 @@
+1. Начало
+2. Ввести n
+3. try:
+3.1   n = abs(int(n))
+4. except ValueError:
+4.1   Вывести("Ошибка")
+5. mult = 1
+6. пока n > 0:
+6.1   digit = n % 10 
+6.2   если digit % 2 != 0:
+6.2.1         mult = mult * digit
+6.2.2         n = n // 10
+7. Вывести(mult)
+8. Конец
